@@ -113,7 +113,7 @@ BRUTE runs **the same check code as the local tests**, with additional seeded in
 
 So if your code is correct *in general*, the hidden tests pass. A solution that only matches the numbers in `test_hw2.py`, or that special-cases the four XOR inputs, will fail. Points per task are all or nothing, as listed in the table above.
 
-Each scoring unit runs in a separate process with a time limit, so one unfinished function or infinite loop does not stop all grading. The upload report shows the total score, points for each unit, and expandable feedback for individual checks. To save all local feedback, run `python test_hw2.py --json results.json`.
+Each scoring unit runs in a separate process with a time limit, so one unfinished function or infinite loop does not stop all grading. The upload report shows the total score, points for each unit, and feedback for failed checks. To save all local feedback, run `python test_hw2.py --json results.json`.
 
 For individual diagnostics in the terminal, use `python test_hw2.py 2.4 --verbose`. Training checks report gradient clearing, training/evaluation modes, and sample-weighted loss averaging separately, so one mistake does not hide another.
 
