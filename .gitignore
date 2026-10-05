@@ -1,0 +1,13 @@
+# Reference solution and hidden tests - never commit
+private/
+# Separate private GitLab grading repository; do not publish its reference code.
+/hw2/
+
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+decision_boundary.png
+hw2_submission.zip
+# Local pyenv environment name (instructor machine only)
+.python-version
